@@ -8,13 +8,13 @@ interface FormacaoProps {
     data: string;
     link?: string;
     plataforma?: string;
-    classname?: string;
+    cl?: string;
 }
 
 export function Formacao(props: FormacaoProps) {
     return (
         <div className="p-5 pt-10 flex ">
-            <img className={props.classname ? props.classname : 'w-52 h-32'} src={props.img} alt="" />
+            <img className='w-52 h-32' src={props.img} alt="" />
             <div className="flex flex-col">
                 <h2 className="text-gray-300 text-[30px] mx-12 font-Inconsolata">{props.titulo}</h2>
                 <h3 className="text-gray-400 text-[15px] mx-12 font-Inconsolata">{props.localizacao}</h3>

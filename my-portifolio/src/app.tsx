@@ -8,7 +8,7 @@ export function App() {
 
 
   return (
-    <div className='w-[100%]'>
+    <div className='w-auto '>
       <Header />
       <LinksIcons />
       <Content />

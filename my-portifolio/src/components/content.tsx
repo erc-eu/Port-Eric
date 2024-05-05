@@ -9,7 +9,6 @@ import { Formacao } from "./card/formacao";
 export function Content() {
     return (
         <main className="w-[100%] w-max-[1600px] min-h-[100vh] px-[100px] py-0 m-auto">
-
             <section className='flex flex-col max-w-[1000px] m-auto justify-center items-start min-h-80 '>
                 <div className="text-[#FF1D38] font-Inconsolata">
                     <h1 className="pb-[30px] pl-2">Oi, meu nome é</h1>
